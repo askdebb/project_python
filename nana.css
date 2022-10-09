@@ -1,0 +1,48 @@
+body{
+    background-color: goldenrod;
+}
+
+#header{
+    text-align: center;
+    background-color: red;
+
+}
+
+#header p small{
+    background-color: blue;
+    color: white;
+}
+
+#img figure figcaption{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: aqua;
+}
+
+#img figure img{
+    height: 200px;
+    width: 200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+    
+}
+
+#bq{
+    text-align: center;
+    background-color:bisque;
+    font-weight: bold;
+}
+
+#h3{
+    padding-left: 20px;
+}
+
+footer{
+    background-color: beige;
+    text-align: center;
+    font-weight: bolder;
+}

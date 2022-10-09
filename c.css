@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    padding: 10px;
+    vertical-align: bottom;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.td-score{
+    text-align: right;
+    vertical-align: bottom;
+}
+.t-score{
+    text-align:center;
+    font-weight:bolder;
+    font-size: larger;
+    width: 23%;
+    
+  }
+
+.table-row{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#header{
+    text-align: center;
+}
