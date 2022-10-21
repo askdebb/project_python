@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b5eae3d1fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Sign In | Sign Up</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="signin-signup">
+            <form action="successful_page.html" class="sign-in-form">
+                <h2 class="title">Sign in</h2>
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" class="text" placeholder="Enter email..">
+                </div>
+
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" class="text" placeholder="Password">
+                </div>
+                <input type="submit" value="Login" class="btn">
+                <p class="social-text">Or Sign in with social platform</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
+            </form>
+
+            <!-- sign up -->
+
+            <form action="successful_page.html" class="sign-up-form">
+                <h2 class="title">Sign up</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" class="text" placeholder="Firstname"><br>
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" class="text" placeholder="Lastname">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-address-book"></i>
+                    <input type="number" class="text" placeholder="Phone number">
+                </div>
+
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" class="text" placeholder="Email">
+                </div>
+
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" class="text" placeholder="Password">
+                </div>
+
+                <div class="input-field">
+                    <i class="fa-solid fa-venus-mars"></i>
+                    <input type="radio" name="gender" value="gender">
+                    <label for="Male" value="male">Male</label>
+                    <input type="radio" name="gender" value="gender">
+                    <label for="female" value="female">Female</label>
+
+                </div>
+
+                <div class="input-field">
+                    <i class="fas fa-calendar-alt"></i>
+                    <input type="date" class="text">
+                </div>
+
+                <div class="input-field">
+                    <i class="fa-solid fa-fill-drip"></i>
+                    <input type="color" class="text" name="favcolor">
+                </div>
+                <input type="submit" value="Sign up" class="btn">
+                <p class="social-text">Or Sign up with social platform</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
+            </form>
+
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Welcome back User?</h3>
+                    <p>Kindly sign in here, thank you.</p>
+                    <button class="btn" id="sign-in-btn">Sign in</button>
+                </div>
+                <img src="img/signin.svg" alt="sign in image page" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>New User?</h3>
+                    <p>Welcome to our platform, kindly sign up here</p>
+                    <button class="btn" id="sign-up-btn">Sign up</button>
+                </div>
+                <img src="img/signup.svg" alt="sign up image page" class="image">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

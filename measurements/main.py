@@ -7,6 +7,7 @@ def measurement_KG_G():
 
     try:
         number_to_process = float(user_input)
+        print(number_to_process)
 
         def manipulation():
             print("Choose to covert to KG (Kilograms) or G(Grams)")
